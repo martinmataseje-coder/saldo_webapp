@@ -78,7 +78,7 @@ theme = st.radio(
 )
 
 # --- Reset tlačidlo ---
-st.button("🔥 Nina", on_click=reset_ui, help="Reset – vymaže formulár")
+st.button("🔥 Koniec sveta", on_click=reset_ui, help="Reset – vymaže formulár")
 
 st.divider()
 
