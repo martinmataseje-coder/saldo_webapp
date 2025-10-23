@@ -57,7 +57,7 @@ st.divider()
 # --- Textové polia ---
 col1, col2 = st.columns(2)
 with col1:
-    hdr_meno = st.text_input("Meno zákazníka", key=f"hdr_meno_{rc}", placeholder="napr. Jožko Mrkvička")
+    hdr_meno = st.text_input("Meno zákazníka", key=f"hdr_meno_{rc}", placeholder="napr. Rick & Morty")
     hdr_sap  = st.text_input("SAP ID",         key=f"hdr_sap_{rc}",  placeholder="napr. 1090989")
 with col2:
     hdr_ucet = st.text_input("Zmluvný účet",   key=f"hdr_ucet_{rc}", placeholder="napr. 777777777")
